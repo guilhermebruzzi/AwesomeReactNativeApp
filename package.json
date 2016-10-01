@@ -1,0 +1,34 @@
+{
+  "name": "AwesomeReactNativeApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "flow": "flow status",
+    "test": "jest",
+    "postinstall": "react-native link"
+  },
+  "dependencies": {
+    "react": "15.3.2",
+    "react-native": "0.34.1",
+    "react-native-ua": "0.0.8"
+  },
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-eslint": "^7.0.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-react-native": "^1.9.0",
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "eslint": "3.7.0",
+    "eslint-config-airbnb": "12.0.0",
+    "eslint-plugin-flow-vars": "0.5.0",
+    "eslint-plugin-flowtype": "2.19.0",
+    "eslint-plugin-import": "1.16.0",
+    "eslint-plugin-jsx-a11y": "2.2.2",
+    "eslint-plugin-react": "6.3.0",
+    "eslint-plugin-react-native": "2.0.0",
+    "flow-bin": "0.33.0"
+  }
+}
